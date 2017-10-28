@@ -102,8 +102,8 @@ nav ul{
     font-size: 3em;
 }
 .section__portfolio hr{
-    border: 2px solid #212529;
-    width: 30%;
+    border: 2.5px solid #212529;
+    width: 15%;
 }
 .section__portfolio .fa-star{
     background-color: #fff;
@@ -121,4 +121,57 @@ nav ul{
     height: 30%;
     margin-right: 25px;
     margin-bottom: 25px;
+}
+/* sección acerca del propósito de la página */
+.section__about{
+    background-color: #18bc9c;
+    position: relative;
+    top: 407px;
+    width: 100%;
+    height: 685px;
+}
+.section__freelancer{
+    /*outline: 2px solid yellow;*/
+    color: #fff;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+.section__freelancer h2{
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section__freelancer hr{
+    border: 2.5px solid #fff;
+    width: 25%;
+}
+.section__information{
+    position: relative;
+    bottom: 20px;
+}
+.section__freelancer p{
+    /*outline: 1px solid black;*/
+    margin-right: 20px;
+    width: 45%;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+/* boton de descarga*/
+.section__button{
+    padding: 0.5rem 1rem;
+    line-height: 1.5;
+    background: #18bc9c;
+    border: 1.5 solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+    border-style: solid;
 }
