@@ -3,7 +3,6 @@
  */
 body{
     margin: 0;
-    color: #fff;
 }
 *{
     font-family: 'Montserrat', sans-serif;
@@ -28,6 +27,7 @@ body{
      top: 34px;
      left: 114px;
      font-size: 32px;
+     color: #fff;
  }
 a{
     color: #fff;
@@ -40,6 +40,7 @@ nav ul{
     float: right;
     letter-spacing: 1px;
     font-size: 1rem;
+    color: #fff;
 }
 .nav__list li{
     /*outline: 2px solid red;*/
@@ -66,6 +67,7 @@ nav ul{
     position: relative;
     text-align: center;
     top: 88px;
+    color: #fff;
 }
 .section__center h2{
     font-size: 4.75em;
@@ -86,4 +88,37 @@ nav ul{
     position: relative;
     bottom: 35px;
     padding: 10px;
+}
+/*  sección de portafolio */
+.section__portfolio{
+    position: relative;
+    top: 210px;
+    width: 100%;
+    height: 685px;
+    color: #212529;
+    text-align: center;
+}
+.section__portfolio h2{
+    font-size: 3em;
+}
+.section__portfolio hr{
+    border: 2px solid #212529;
+    width: 30%;
+}
+.section__portfolio .fa-star{
+    background-color: #fff;
+}
+
+/* sección de imagenes del portafolio */
+
+.section__images{
+    /*outline: 2px solid black;*/
+    margin-left: 100px;
+    width: 90%;
+}
+.section__images img{
+    width: 30%;
+    height: 30%;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
