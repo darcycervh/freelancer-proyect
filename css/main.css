@@ -22,6 +22,9 @@ body{
      width: 100%;
      z-index: 100;
  }
+ .container li>a:hover{
+     color: #18bc9c;
+ }
  .container>a{
      position: relative;
      top: 34px;
@@ -102,7 +105,7 @@ nav ul{
     font-size: 3em;
 }
 .section__portfolio hr{
-    border: 2.5px solid #212529;
+    border: 3px solid #212529;
     width: 15%;
 }
 .section__portfolio .fa-star{
@@ -155,7 +158,8 @@ nav ul{
 }
 .section__freelancer p{
     /*outline: 1px solid black;*/
-    margin-right: 20px;
+    margin-right: 30px;
+    float: left;
     width: 45%;
     display: inline-block;
     font-size: 1.2rem;
@@ -164,16 +168,22 @@ nav ul{
     text-align: left;
 }
 /* download button */
-.section__button{
-    padding: 0.5rem 1rem;
-    line-height: 1.5;
-    background: #18bc9c;
-    border: 1.5 solid #fff;
-    border-radius: 5px;
+.section__button>a{
+    clear: both;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    top: 60px;
+    right: 200px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 7px;
     font-size: 20px;
-    color: #fff;
-    margin-top: 30px;
-    border-style: solid;
+}
+.section__button>a:hover{
+    color: #18bc9c;
+    background-color: #fff;
+    transition: 0.6s;
 }
 /* contact me*/
 .section__contact{
@@ -272,6 +282,7 @@ footer ul{
     list-style: none;
     position: relative;
     padding-left: 0;
+    margin-left: 40px;
 }
 footer div p{
     width:300px;
@@ -279,17 +290,27 @@ footer div p{
     margin: auto;
 }
 footer li{
+    margin-left: 40px;
+}
+footer li>a{
     display: inline-block;
+    float: left;
     border: 2px solid #fff;
     border-radius: 50%;
     padding: 10px;
     width: 20px;
     height: 20px;
     margin-right: 10px;
-}
-footer>p{
     
-    padding-top: 120px;
+}
+footer li>a:hover{
+    background-color: #fff;
+    color: #18bc9c;
+    transition: 0.6s;
+}
+footer>p{   
+    font-size: 14px;
+    padding-top: 150px;
     text-align: center;
     clear: both;
 }
