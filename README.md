@@ -1,13 +1,13 @@
 ## Proyecto: Freelancer.
 ### Programa: Replicar la página de Start Bootstrap.
 
-*** Descripción del Proyecto: ***
+**Descripción del Proyecto:**
 * Cumplir satisfactoriamente el reto establecido, realizando una réplica perfecta de la maquetación de la página freelancer.
 
-*** Herramientas utilizadas: ***
+**Herramientas utilizadas:**
 * HTML.
 * CSS.
 
-*** Meta: ***
+**Meta:**
 
-![meta a lograr](assets/docs/fullpage.png)
+![meta a lograr](../assets/docs/fullpage.png)
