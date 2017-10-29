@@ -10,4 +10,4 @@
 
 **Meta:**
 
-![meta a lograr](../assets/docs/fullpage.png)
+![meta a lograr](assets/docs/fullpage.png)
