@@ -25,10 +25,13 @@ body{
      left: 114px;
      font-size: 32px;
      color: #fff;
+
  }
+
 a{
     color: #fff;
     text-decoration: none;
+    touch-action: manipulation;
     
 }
 nav ul{
@@ -103,16 +106,140 @@ nav ul{
 }
 
 /* images of portfolio section */
+.portfolio__images div{
+    float: left;
+    margin-bottom: 5%;
+    margin-left: 6%
+}
+
+.portfolio__img1{
+    background-image: url(../assets/images/portfolio/cabin.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}/*
+.img1__hover>i{
+    position: relative;
+    top: 120px;
+    left: 130px;
+    font-size: 40px;
+    color: #fff;
+}*/
+.portfolio__img1:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+/*img 2*/
+.portfolio__img2{
+    background-image: url(../assets/images/portfolio/cake.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}
+.img2__hover>i{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+.portfolio__img2:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+/*img 3*/
+.portfolio__img3{
+    background-image: url(../assets/images/portfolio/circus.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}
+.img3__hover>i{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+.portfolio__img3:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+/*img 4*/
+.portfolio__img4{
+    background-image: url(../assets/images/portfolio/game.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}
+.img4__hover>i{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+.portfolio__img4:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+/*img 5*/
+.portfolio__img5{
+    background-image: url(../assets/images/portfolio/safe.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}
+.img5__hover>i{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+.portfolio__img5:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+/*img 6*/
+.portfolio__img6{
+    background-image: url(../assets/images/portfolio/submarine.png);
+    background-size: 120%;
+    background-position: center;
+    background-image: no-repeat;
+    width: 350px;
+    height: 290px;
+}
+.img6__hover>i{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    color: #fff;
+}
+.portfolio__img6:hover{
+    background: lightseagreen;
+    transition: 0.6s;
+}
+
+/*
 .presentation__images{
     margin-left: 100px;
     width: 90%;
 }
 .presentation__images img{
+    float: left;
     width: 30%;
     height: 30%;
     margin-right: 25px;
     margin-bottom: 25px;
 }
+*/
 /* about section */
 .about{
     background-color: #18bc9c;
@@ -144,8 +271,8 @@ nav ul{
     bottom: 20px;
 }
 .about__freelancer p{
-    margin-right: 30px;
-    float: left;
+    margin-right: 20px;
+    /*float: left;*/
     width: 45%;
     display: inline-block;
     font-size: 1.2rem;
@@ -160,7 +287,7 @@ nav ul{
     padding: 20px;
     position: relative;
     top: 60px;
-    right: 200px;
+    /*right: 200px;*/
     margin: auto;
     border: 2px solid #fff;
     border-radius: 7px;
@@ -229,6 +356,9 @@ textarea {
     margin-bottom: 0px;
     box-sizing: border-box;
 }
+textarea[type]{
+    font-family: 'Montserrat',sans-serif;
+}
 /* button to submit answer of the form */
 .contact__form button{
     background-color: #18bc9c;
@@ -283,7 +413,7 @@ footer ul{
     margin-left: 40px; 
 }
 footer li{
-    margin-left: 25px;
+    /*margin-left: 25px;*/
     font-size: 20px;
 }
 footer li a{
@@ -294,7 +424,7 @@ footer li a{
     padding: 13px 10px 10px;
     width: 35px;
     height: 30px;
-    margin-right: 12px;
+    margin-right: 10px;
     
 }
 footer li>a:hover{
