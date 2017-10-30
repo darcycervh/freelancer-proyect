@@ -108,7 +108,7 @@ nav ul{
 /* images of portfolio section */
 .portfolio__images div{
     float: left;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
     margin-left: 6%
 }
 
@@ -119,14 +119,7 @@ nav ul{
     background-image: no-repeat;
     width: 350px;
     height: 290px;
-}/*
-.img1__hover>i{
-    position: relative;
-    top: 120px;
-    left: 130px;
-    font-size: 40px;
-    color: #fff;
-}*/
+}
 .portfolio__img1:hover{
     background: lightseagreen;
     transition: 0.6s;
@@ -226,27 +219,14 @@ nav ul{
     background: lightseagreen;
     transition: 0.6s;
 }
-
-/*
-.presentation__images{
-    margin-left: 100px;
-    width: 90%;
-}
-.presentation__images img{
-    float: left;
-    width: 30%;
-    height: 30%;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-*/
 /* about section */
 .about{
     background-color: #18bc9c;
     position: relative;
-    top: 407px;
+    top: 307px;
     width: 100%;
     height: 685px;
+    clear: both;
 }
 .about__freelancer{
     color: #fff;
