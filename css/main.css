@@ -1,19 +1,13 @@
-/*
- * Estilos de tu proyecto
- */
 body{
     margin: 0;
-}
-*{
     font-family: 'Montserrat', sans-serif;
 }
- /*clase para poner en mayuscula el texto*/
+ /*class to transform text to uppercase*/
  .text-uppercase{
     text-transform: uppercase;
 }
- /*barra de navegación*/
- .container{
-     /*outline: 1px solid magenta;*/
+ /*navigation bar*/
+ .navigation{
      background-color: #2c3e50;
      display: block;
      font-weight: 700;
@@ -22,12 +16,12 @@ body{
      width: 100%;
      z-index: 100;
  }
- .container li>a:hover{
+ .navigation li>a:hover{
      color: #18bc9c;
  }
- .container>a{
+ .navigation>a{
      position: relative;
-     top: 34px;
+     top: 40px;
      left: 114px;
      font-size: 32px;
      color: #fff;
@@ -38,32 +32,28 @@ a{
     
 }
 nav ul{
-    /*outline: 2px solid olive;*/
     display: block;
     float: right;
     letter-spacing: 1px;
     font-size: 1rem;
     color: #fff;
 }
-.nav__list li{
-    /*outline: 2px solid red;*/
+.navigation__list li{
     display: inline;
     position: relative;
     margin-right: 15px;
     right: 107px;
     bottom: 10px;
 }
-
-/* presentación de la página */
-.section__presentation{
+/* presentation section */
+.presentation{
     background-color:  #18bc9c;
     position: relative;
     top: 107px;
     width: 100%;
     height: 685px;
 }
-.section__center {
-    /*outline: 2px solid burlywood;*/
+.presentation__center {
     display: block;
     width: 80%;
     margin: auto;
@@ -72,15 +62,15 @@ nav ul{
     top: 88px;
     color: #fff;
 }
-.section__center h2{
+.presentation__center h2{
     font-size: 4.75em;
     margin-bottom: 23px;
 }
-.section__center hr{
+.presentation__center hr{
     border: 2px solid #fff;
     width: 30%;
 }
-.section__center p{
+.presentation__center p{
     font-size: 1.75em;
     font-weight: 300;
     position: relative;
@@ -92,8 +82,8 @@ nav ul{
     bottom: 35px;
     padding: 10px;
 }
-/*  sección de portafolio */
-.section__portfolio{
+/*  portfolio section */
+.portfolio{
     position: relative;
     top: 210px;
     width: 100%;
@@ -101,40 +91,37 @@ nav ul{
     color: #212529;
     text-align: center;
 }
-.section__portfolio h2{
+.portfolio h2{
     font-size: 3em;
 }
-.section__portfolio hr{
+.portfolio hr{
     border: 3px solid #212529;
     width: 15%;
 }
-.section__portfolio .fa-star{
+.portfolio .fa-star{
     background-color: #fff;
 }
 
-/* sección de imagenes del portafolio */
-
-.section__images{
-    /*outline: 2px solid black;*/
+/* images of portfolio section */
+.presentation__images{
     margin-left: 100px;
     width: 90%;
 }
-.section__images img{
+.presentation__images img{
     width: 30%;
     height: 30%;
     margin-right: 25px;
     margin-bottom: 25px;
 }
-/* sección acerca del propósito de la página */
-.section__about{
+/* about section */
+.about{
     background-color: #18bc9c;
     position: relative;
     top: 407px;
     width: 100%;
     height: 685px;
 }
-.section__freelancer{
-    /*outline: 2px solid yellow;*/
+.about__freelancer{
     color: #fff;
     width: 60%;
     height: 60%;
@@ -143,21 +130,20 @@ nav ul{
     top: 80px;
     text-align: center;
 }
-.section__freelancer h2{
+.about__freelancer h2{
     font-size: 3em;
     margin: 0;
     margin-bottom: 15px;
 }
-.section__freelancer hr{
+.about__freelancer hr{
     border: 2.5px solid #fff;
     width: 25%;
 }
-.section__information{
+.about__information{
     position: relative;
     bottom: 20px;
 }
-.section__freelancer p{
-    /*outline: 1px solid black;*/
+.about__freelancer p{
     margin-right: 30px;
     float: left;
     width: 45%;
@@ -168,7 +154,7 @@ nav ul{
     text-align: left;
 }
 /* download button */
-.section__button>a{
+.about__button>a{
     clear: both;
     width: 200px;
     padding: 20px;
@@ -180,38 +166,38 @@ nav ul{
     border-radius: 7px;
     font-size: 20px;
 }
-.section__button>a:hover{
+.about__button>a:hover{
     color: #18bc9c;
     background-color: #fff;
     transition: 0.6s;
 }
-/* contact me*/
-.section__contact{
+/* contact-me section*/
+.contact{
     position: relative;
     top: 500px;
     width: 100%;
     height: 680px;
 }
-.section__contactme{
+.contact__section{
     color:#212529;
     margin: auto;
     text-align: center;
 }
-.section__contactme h2{
+.contact__section h2{
     font-size: 3em;
     margin: 0;
     margin-bottom: 15px;
 }
-.section__contactme hr{
-    border: 2.5px solid #212529;
+.contact__section hr{
+    border: 3px solid #212529;
     width: 15%;
 }
-.section__contactme .fa-star{
+.contact__section .fa-star{
     background-color: #fff;
     color: #212529;
 }
+/* contact form */
 .contact__form{
-    /*outline: 1px solid black;*/
     position: relative;
     display: block;
     margin: auto;
@@ -219,7 +205,6 @@ nav ul{
     
 }
 .contact__form [placeholder]{
-    /*outline: 1px solid maroon;*/
     display: block;
     margin: auto;
     padding: 10px;
@@ -236,22 +221,28 @@ nav ul{
 .contact__form [type]{
     font-size: 20px;
 }
+/* message box */
 textarea {
-    /*outline: 1px solid brown;*/
     resize: none;
     max-height: 120px;
     min-height: 120px;
     margin-bottom: 0px;
     box-sizing: border-box;
 }
+/* button to submit answer of the form */
 .contact__form button{
     background-color: #18bc9c;
+    color: #fff;
     border-radius: 5px;
     border: none;
     font-size: 1.3em;
     padding: 15px;
     position: absolute;
     left: 30px;
+}
+.contact__form button:hover{
+    background-color: #198872;
+    transition: 0.5s;
 }
 /* footer */
 footer{
@@ -263,6 +254,7 @@ footer{
     color: #fff;
     padding-top: 60px;
 }
+/* separate contect of the footer in blocks */
 footer div{
     position: relative;
     display: block;
@@ -278,35 +270,37 @@ span a{
 span a:hover{
     text-decoration: underline;
 }
-footer ul{
-    list-style: none;
-    position: relative;
-    padding-left: 0;
-    margin-left: 40px;
-}
 footer div p{
     width:300px;
     font-size: 20px;
     margin: auto;
 }
-footer li{
-    margin-left: 40px;
+/* list of icons */
+footer ul{
+    list-style: none;
+    position: relative;
+    padding-left: 0;
+    margin-left: 40px; 
 }
-footer li>a{
+footer li{
+    margin-left: 25px;
+    font-size: 20px;
+}
+footer li a{
     display: inline-block;
     float: left;
     border: 2px solid #fff;
     border-radius: 50%;
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    padding: 13px 10px 10px;
+    width: 35px;
+    height: 30px;
+    margin-right: 12px;
     
 }
 footer li>a:hover{
     background-color: #fff;
     color: #18bc9c;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 footer>p{   
     font-size: 14px;

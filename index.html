@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+    <!-- source of icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- source of fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <title>Freelancer -Start Bootstrap</title>
 </head>
 <body>
-    <!--  barra de navegación -->
+    <!--  navigation bar -->
     <nav >
-        <div class="container text-uppercase">
+        <div class="navigation text-uppercase">
             <a href="#">start bootstrap</a>
            <!-- <form action="button">
                 <button name="subject" type="submit" value="menu">menu</button>
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </form>-->
-            <div class="nav__list">
+            <div class="navigation__list">
                 <ul>
                     <li>
                         <a class="text-uppercase" href="#">portfolio</a>
@@ -34,10 +36,10 @@
             </div>
         </div>
     </nav>
-    <!-- sección de presentación de la página -->
+    <!-- presentation section -->
     <section>
-        <div class="section__presentation">
-            <div class="section__center">
+        <div class="presentation">
+            <div class="presentation__center">
             <img src="assets/images/profile.png" alt="businessperson">
             <h2 class="text-uppercase">start bootstrap</h2>
             <hr>
@@ -46,12 +48,14 @@
             </div>
         </div>
     </section>
+    <!-- portfolio section -->
     <section>
-        <div class="section__portfolio">
+        <div class="portfolio">
             <h2 class="text-uppercase">portfolio</h2>
             <hr>
             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-            <div class="section__images">
+            <div class="presentation__images">
+                <!-- images of portfolio section -->
                 <img src="assets/images/portfolio/cabin.png" alt="">
                 <img src="assets/images/portfolio/cake.png" alt="">
                 <img src="assets/images/portfolio/circus.png" alt="">
@@ -61,43 +65,47 @@
             </div>
         </div>
     </section>
-    <section class="section__about">
-        <div class="section__freelancer">
+    <!-- about section -->
+    <section class="about">
+        <div class="about__freelancer">
             <h2 class="text-uppercase">about</h2>
             <hr>
             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
-            <div class="section__information">
+            <div class="about__information">
             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
-            <div class="section__button">
+            <!-- button "download" -->
+            <div class="about__button">
                 <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</a>
             </div>
         </div>
     </section>
-    <section class="section__contact">
-        <div class="section__contactme">
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact__section">
             <h2 class="text-uppercase">contact me</h2>
             <hr>
             <i class="fa fa-star fa-2x" aria-hidden="true"></i>
             </div>
             <div class="contact__form">
+                <!-- form of contact section -->
                 <form action="">
                     <input type="text" placeholder="Name">
                     <hr>
                     <input type="email" placeholder="Email Address">
                     <hr>
-                    <input type="phone" placeholder="Phone Number">
+                    <input type="number" placeholder="Phone Number">
                     <hr>
                     <textarea type="text" placeholder="Message"></textarea>
                     <hr>
-                    <button>
-                        <a href="#">Send</a>
-                    </button>
+                    <!-- button to submit information registered in the form -->
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>
     </section>
+    <!-- footer section -->
     <footer>
         <div>
             <h2 class="text-uppercase">location</h2>
@@ -105,9 +113,10 @@
         </div>
         <div>
             <h2 class="text-uppercase">around the web</h2>
+            <!-- list of icons -->
             <ul>
             <li>
-                <a href="">
+                <a href="#">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
             </li>
@@ -139,8 +148,7 @@
                 Freelance is a free to use, open source Bootstrap theme created by <span><a href="">Start Bootstrap</a></span>.
             </p>
         </div>
-        <p class="footer__final">Copyright © Your Website 2017</p>
-        
+        <p class="footer__final">Copyright © Your Website 2017</p>       
     </footer>
 </body>
 </html>
